@@ -1,0 +1,247 @@
+[
+  {
+    "id": "aicte_pragati_degree",
+    "name": "AICTE Pragati Scholarship Scheme - Technical Degree",
+    "provider": "All India Council for Technical Education (AICTE)",
+    "type": "Merit Based",
+    "source": {
+      "name": "National Scholarship Portal",
+      "url": "https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_2010_G.pdf"
+    },
+    "rules": [
+      {
+        "id": "PRAGATI_R1",
+        "field": "gender",
+        "operator": "equals",
+        "value": "Female",
+        "text": "The applicant must be a girl student pursuing a technical degree.",
+        "source_clause": "girl candidate"
+      },
+      {
+        "id": "PRAGATI_R2",
+        "field": "course_level",
+        "operator": "equals",
+        "value": "Undergraduate Degree",
+        "text": "The applicant must be admitted to a degree-level technical programme.",
+        "source_clause": "First year of Degree level course"
+      },
+      {
+        "id": "PRAGATI_R3",
+        "field": "year",
+        "operator": "in",
+        "value": [
+          "1",
+          "2"
+        ],
+        "text": "Fresh applicants may be in first year, or second year through lateral entry.",
+        "source_clause": "Second year of Degree level course through lateral entry"
+      },
+      {
+        "id": "PRAGATI_R4",
+        "field": "aicte_approved",
+        "operator": "equals",
+        "value": "Yes",
+        "text": "The degree programme must be in an AICTE-approved institution.",
+        "source_clause": "AICTE approved Institution"
+      },
+      {
+        "id": "PRAGATI_R5",
+        "field": "family_income",
+        "operator": "less_than_or_equal",
+        "value": 800000,
+        "text": "Annual family income must not exceed INR 8 lakh.",
+        "source_clause": "Family income ... not more than Rs. 8 lakh per annum"
+      }
+    ],
+    "documents": [
+      "Valid Income Certificate",
+      "Admission / Institution Certificate",
+      "Category Certificate if applicable",
+      "Bank / Aadhaar-linked account details"
+    ]
+  },
+  {
+    "id": "aicte_swanath_degree",
+    "name": "AICTE Swanath Scholarship Scheme - Technical Degree",
+    "provider": "All India Council for Technical Education (AICTE)",
+    "type": "Welfare Based",
+    "source": {
+      "name": "National Scholarship Portal",
+      "url": "https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_3039_G.pdf"
+    },
+    "rules": [
+      {
+        "id": "SWANATH_R1",
+        "field": "special_circumstance",
+        "operator": "not_equals",
+        "value": "None",
+        "text": "The applicant must fall within one of the qualifying Swanath special circumstances.",
+        "source_clause": "Orphan"
+      },
+      {
+        "id": "SWANATH_R2",
+        "field": "family_income",
+        "operator": "less_than_or_equal",
+        "value": 800000,
+        "text": "Annual family income must not exceed INR 8 lakh.",
+        "source_clause": "annual family income ... not exceeding Rs. 8 lakh"
+      },
+      {
+        "id": "SWANATH_R3",
+        "field": "aicte_approved",
+        "operator": "equals",
+        "value": "Yes",
+        "text": "The applicant must study in an AICTE-approved technical programme.",
+        "source_clause": "AICTE approved"
+      },
+      {
+        "id": "SWANATH_R4",
+        "field": "course_level",
+        "operator": "equals",
+        "value": "Undergraduate Degree",
+        "text": "This dataset entry covers the technical degree version of Swanath.",
+        "source_clause": "Technical Degree"
+      },
+      {
+        "id": "SWANATH_R5",
+        "field": "other_scholarship",
+        "operator": "equals",
+        "value": "No",
+        "text": "The applicant must not be receiving another government-sponsored scholarship.",
+        "source_clause": "not availing any other scholarship"
+      }
+    ],
+    "documents": [
+      "Income Certificate",
+      "Relevant proof of special circumstance",
+      "Admission / Institution Certificate",
+      "Bank / Aadhaar-linked account details"
+    ]
+  },
+  {
+    "id": "pm_yasasvi_top_class_college",
+    "name": "PM YASASVI Top Class Education in College",
+    "provider": "Ministry of Social Justice and Empowerment",
+    "type": "Merit Based",
+    "source": {
+      "name": "National Scholarship Portal",
+      "url": "https://scholarships.gov.in/public/schemeGuidelines/ApprovedmodifieddraftofTopClassCollege.pdf"
+    },
+    "rules": [
+      {
+        "id": "YASASVI_R1",
+        "field": "category",
+        "operator": "in",
+        "value": [
+          "OBC",
+          "EBC",
+          "DNT"
+        ],
+        "text": "The applicant must belong to OBC, EBC or DNT category.",
+        "source_clause": "OBC/EBC/DNT students"
+      },
+      {
+        "id": "YASASVI_R2",
+        "field": "family_income",
+        "operator": "less_than_or_equal",
+        "value": 250000,
+        "text": "Annual family income from all sources must not exceed INR 2.5 lakh.",
+        "source_clause": "annual family income from all sources up to Rs. 2.50 lakh"
+      },
+      {
+        "id": "YASASVI_R3",
+        "field": "course_level",
+        "operator": "not_equals",
+        "value": "Diploma",
+        "text": "The applicant must be pursuing the prescribed full-time course covered by the scheme.",
+        "source_clause": "full-time prescribed course"
+      },
+      {
+        "id": "YASASVI_R4",
+        "field": "institution_notified",
+        "operator": "equals",
+        "value": "Yes",
+        "text": "The applicant must have admission to an institution notified under the scheme.",
+        "source_clause": "notified institutions"
+      }
+    ],
+    "documents": [
+      "OBC / EBC / DNT Certificate",
+      "Income Certificate",
+      "Admission / Bonafide Certificate",
+      "Previous qualifying examination certificate",
+      "Bank account details"
+    ]
+  },
+  {
+    "id": "rajarshi_dhe_maharashtra",
+    "name": "Rajarshi Chhatrapati Shahu Maharaj Shikshan Shulkh Shishyavrutti Scheme",
+    "provider": "Directorate of Higher Education, Maharashtra",
+    "type": "State Scholarship",
+    "source": {
+      "name": "MahaDBT",
+      "url": "https://mahadbt.maharashtra.gov.in/SchemeData/SchemeData?str=E9DDFA703C38E51AA86467549C6E0CFFDFD61E992C8610ED352EC9DEF886C9CD"
+    },
+    "rules": [
+      {
+        "id": "RAJARSHI_R1",
+        "field": "state",
+        "operator": "equals",
+        "value": "Maharashtra",
+        "text": "The applicant must satisfy the Maharashtra domicile / state eligibility conditions applicable to the scheme.",
+        "source_clause": "Domicile of Maharashtra State"
+      },
+      {
+        "id": "RAJARSHI_R1B",
+        "field": "domicile_certificate",
+        "operator": "equals",
+        "value": "Yes",
+        "text": "The applicant must have a valid Maharashtra domicile certificate.",
+        "source_clause": "Domicile of Maharashtra State"
+      },
+      {
+        "id": "RAJARSHI_R2",
+        "field": "family_income",
+        "operator": "less_than_or_equal",
+        "value": 800000,
+        "text": "The family annual income limit for the scheme is INR 8 lakh.",
+        "source_clause": "family annual income limit is up to Rs. 8.00 lakh"
+      },
+      {
+        "id": "RAJARSHI_R3",
+        "field": "course_level",
+        "operator": "in",
+        "value": [
+          "Diploma",
+          "Undergraduate Degree",
+          "Postgraduate Degree"
+        ],
+        "text": "The scheme covers specified professional and non-professional courses under the Directorate of Higher Education.",
+        "source_clause": "Professional and non-professional courses"
+      },
+      {
+        "id": "RAJARSHI_R4",
+        "field": "institution_type",
+        "operator": "not_equals",
+        "value": "Unknown",
+        "text": "The institution must fall within the institution categories covered by the DHE scheme.",
+        "source_clause": "Government / Non-government aided / Partially Aided / Unaided"
+      },
+      {
+        "id": "RAJARSHI_R5",
+        "field": "other_scholarship",
+        "operator": "equals",
+        "value": "No",
+        "text": "The applicant must not be receiving another scholarship or stipend that conflicts with the scheme.",
+        "source_clause": "not availing any other scholarship/stipend"
+      }
+    ],
+    "documents": [
+      "Income Certificate",
+      "Maharashtra Domicile Certificate",
+      "Admission / Bonafide Certificate",
+      "Applicable category certificate",
+      "Fee receipt"
+    ]
+  }
+]
